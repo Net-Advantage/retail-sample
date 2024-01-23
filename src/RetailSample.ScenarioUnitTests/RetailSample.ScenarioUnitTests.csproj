@@ -8,13 +8,20 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="appsettings.json" />
+		<None Remove="appsettings.json" />
+		<None Remove="xunit.runner.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Include="appsettings.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+		<Content Include="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="xunit.runner.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -38,7 +45,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\RetailSample.Workflows.UserManagementScenarios\RetailSample.Workflows.UserManagementScenarios.csproj" />
+		<ProjectReference Include="..\RetailSample.Workflows.UserManagementScenarios\RetailSample.Workflows.UserManagementScenarios.csproj" />
 	</ItemGroup>
 
 </Project>
