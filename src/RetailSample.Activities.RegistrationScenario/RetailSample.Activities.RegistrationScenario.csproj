@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>$(TargetFrameworkVersion)</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Nabs" />
+		<PackageReference Include="Nabs.Scenarios" />
+		<PackageReference Include="Nabs.ActivityFramework" />
+	</ItemGroup>
+
+</Project>
