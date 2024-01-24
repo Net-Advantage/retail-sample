@@ -1,4 +1,4 @@
-﻿namespace Nabs.TechTrek.Persistence.Entities;
+﻿namespace RetailSample.Persistence.Entities;
 
 public sealed class UserEntity : EntityBase<Guid>
 {

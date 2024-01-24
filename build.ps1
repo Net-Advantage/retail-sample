@@ -17,3 +17,6 @@ dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
 dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
 dotnet test src/Nabs.RetailSample.sln --configuration Release --no-restore --no-build --logger "console;verbosity=detailed" --settings src/coverlet.runsettings
 & "$env:UserProfile/.nuget/packages/reportgenerator/5.2.0/tools/net8.0/ReportGenerator.exe" -reports:"**/TestResults/*/coverage.cobertura.xml" -targetdir:"coveragereport"
+
+# Open coverage report in browser
+Start-Process -FilePath (Join-Path -Path $coverageReportPath -ChildPath "index.html")

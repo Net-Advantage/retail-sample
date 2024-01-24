@@ -3,13 +3,13 @@
 		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
 		<AspireVersion>8.0.0-preview.3.24059.2</AspireVersion>
 		<EfCoreVersion>8.0.1</EfCoreVersion>
-		<NabsVersion>8.0.41</NabsVersion>
+		<NabsVersion>8.0.45</NabsVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- Nabs dependencies -->
 		<PackageVersion Include="Nabs" Version="$(NabsVersion)" />
-		<PackageVersion Include="Nabs.AzureConfiguration" Version="$(NabsVersion)" />
 		<PackageVersion Include="Nabs.ActivityFramework" Version="$(NabsVersion)" />
+		<PackageVersion Include="Nabs.AzureConfiguration" Version="$(NabsVersion)" />
 		<PackageVersion Include="Nabs.Identity.Web" Version="$(NabsVersion)" />
 		<PackageVersion Include="Nabs.Persistence" Version="$(NabsVersion)" />
 		<PackageVersion Include="Nabs.Reflection" Version="$(NabsVersion)" />

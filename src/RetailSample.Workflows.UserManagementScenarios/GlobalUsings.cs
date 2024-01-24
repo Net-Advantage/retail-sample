@@ -1,10 +1,12 @@
-﻿global using LanguageExt.Common;
+﻿global using Ardalis.Specification;
+global using Ardalis.Specification.EntityFrameworkCore;
+global using FluentValidation.Results;
+global using LanguageExt.Common;
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.Extensions.DependencyInjection;
 global using Nabs.ActivityFramework;
 global using Nabs.Persistence;
 global using Nabs.Scenarios;
-global using Nabs.TechTrek.Persistence.Entities;
 global using RetailSample.Activities.RegistrationScenario;
 global using RetailSample.Persistence;
-global using FluentValidation.Results;
+global using RetailSample.Workflows.UserManagementScenarios.Specifications;

@@ -1,6 +1,4 @@
-﻿
-
-namespace RetailSample.Workflows.UserManagementScenarios;
+﻿namespace RetailSample.Workflows.UserManagementScenarios;
 
 public sealed class NewUserWorkflow : Workflow<NewUserWorkflowState>
 {
