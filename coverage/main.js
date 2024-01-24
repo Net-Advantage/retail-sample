@@ -230,21 +230,22 @@ var assemblies = [
   {
     "name": "RetailSample.Persistence",
     "classes": [
-      { "name": "Nabs.TechTrek.Persistence.Entities.UserEntity", "rp": "RetailSample.Persistence_UserEntity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "Nabs.TechTrek.Persistence.Entities.WeatherForecastEntityConfiguration", "rp": "RetailSample.Persistence_WeatherForecastEntityConfiguration.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Persistence.Entities.ShoppingCartEntity", "rp": "RetailSample.Persistence_ShoppingCartEntity.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Persistence.Entities.StoreEntity", "rp": "RetailSample.Persistence_StoreEntity.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Persistence.Entities.TenantEntity", "rp": "RetailSample.Persistence_TenantEntity.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 7, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.Persistence.RetailSampleDbContext", "rp": "RetailSample.Persistence_RetailSampleDbContext.html", "cl": 5, "ucl": 2, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Persistence.Entities.UserEntity", "rp": "RetailSample.Persistence_UserEntity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Persistence.Entities.WeatherForecastEntityConfiguration", "rp": "RetailSample.Persistence_WeatherForecastEntityConfiguration.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Persistence.RetailSampleDbContext", "rp": "RetailSample.Persistence_RetailSampleDbContext.html", "cl": 4, "ucl": 3, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "RetailSample.Workflows.UserManagementScenarios",
     "classes": [
       { "name": "RetailSample.Workflows.UserManagementScenarios.DependencyInversionExtensions", "rp": "RetailSample.Workflows.UserManagementScenarios_DependencyInversionExtensions.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflow", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflow.html", "cl": 17, "ucl": 3, "cal": 20, "tl": 48, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflow", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflow.html", "cl": 17, "ucl": 3, "cal": 20, "tl": 46, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflowParameters", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflowParameters.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflowRepository", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflowRepository.html", "cl": 27, "ucl": 2, "cal": 29, "tl": 46, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflowState", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflowState.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 6, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflowRepository", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflowRepository.html", "cl": 19, "ucl": 2, "cal": 21, "tl": 88, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Workflows.UserManagementScenarios.NewUserWorkflowState", "rp": "RetailSample.Workflows.UserManagementScenarios_NewUserWorkflowState.html", "cl": 1, "ucl": 1, "cal": 2, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Workflows.UserManagementScenarios.Specifications.GetUserEntitySpecification", "rp": "RetailSample.Workflows.UserManagementScenarios_GetUserEntitySpecification.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
