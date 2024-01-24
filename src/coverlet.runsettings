@@ -5,8 +5,6 @@
 			<DataCollector friendlyName="XPlat code coverage">
 				<Configuration>
 					<Include>
-						<Include>[Nabs*]*</Include>
-						<!-- Include all types in MyApp namespace -->
 						<Include>[RetailSample*]*</Include>
 						<!-- Include all types in RetailSample namespace -->
 					</Include>
