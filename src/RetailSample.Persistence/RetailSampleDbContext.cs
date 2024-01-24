@@ -6,6 +6,8 @@ public class RetailSampleDbContext(
     : TenantableDbContext<TenantEntity>(options, applicationContext)
 {
     public DbSet<UserEntity> Users => Set<UserEntity>();
+    public DbSet<StoreEntity> Stores => Set<StoreEntity>();
+    public DbSet<ShoppingCartEntity> ShoppingCarts => Set<ShoppingCartEntity>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
