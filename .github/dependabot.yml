@@ -18,8 +18,12 @@ updates:
       interval: "daily"
     allow:
      - dependency-name: "Nabs*"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 25
     target-branch: "main"
+    groups:
+      Nabs:
+        patterns:
+          - "Nabs*"
     labels:
       - "nuget dependencies"
       - "dependabot"
