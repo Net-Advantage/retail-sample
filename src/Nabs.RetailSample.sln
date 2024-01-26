@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		..\build.ps1 = ..\build.ps1
 		..\.github\workflows\build.yml = ..\.github\workflows\build.yml
 		coverlet.runsettings = coverlet.runsettings
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 		nuget.config = nuget.config
@@ -25,11 +26,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailSample.ScenarioUnitTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShopperAccount", "ShopperAccount", "{8F822FCE-8634-474A-9025-3E53A052E78D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailSample.ShopperAccount.RegistrationScenario", "ShopperAccount\RetailSample.ShopperAccount.RegistrationScenario\RetailSample.ShopperAccount.RegistrationScenario.csproj", "{1F64FD5D-2FA9-428F-B25A-CCBE674BBC79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailSample.ShopperAccount.RegistrationScenario", "ShopperAccount\RetailSample.ShopperAccount.RegistrationScenario\RetailSample.ShopperAccount.RegistrationScenario.csproj", "{1F64FD5D-2FA9-428F-B25A-CCBE674BBC79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailSample", "RetailSample\RetailSample.csproj", "{E190510B-1497-4E31-8EA1-C7D08DC4F103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailSample", "RetailSample\RetailSample.csproj", "{E190510B-1497-4E31-8EA1-C7D08DC4F103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailSample.Test.ShopperAccount.RegistrationUnitTests", "RetailSample.Test.ShopperAccount.RegistrationUnitTests\RetailSample.Test.ShopperAccount.RegistrationUnitTests.csproj", "{C2EE380D-AE3A-4B50-9F9F-5C0C45F61234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailSample.Test.ShopperAccount.RegistrationUnitTests", "RetailSample.Test.ShopperAccount.RegistrationUnitTests\RetailSample.Test.ShopperAccount.RegistrationUnitTests.csproj", "{C2EE380D-AE3A-4B50-9F9F-5C0C45F61234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
