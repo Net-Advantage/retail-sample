@@ -8,13 +8,11 @@ registries:
   nuget:
     type: nuget-feed
     url: https://api.nuget.org/v3/index.json
-    replaces-base: true
   nabs-github-nuget:
     type: nuget-feed
     url: https://nuget.pkg.github.com/Net-Advantage/index.json
     username: nabs-darrel-schreyer
-    password: ${{secrets.NUGET_AUTH_TOKEN}}
-    replaces-base: true
+    token: ${{secrets.NUGET_AUTH_TOKEN}}
 
 updates:
   - package-ecosystem: "nuget"
