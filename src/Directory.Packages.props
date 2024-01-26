@@ -64,7 +64,7 @@
 		<PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 		<PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
 		<PackageVersion Include="System.Reactive" Version="6.0.0" />
-		<PackageVersion Include="Cocona" Version="2.2.0" />
+		<PackageVersion Include="Cocona" Version="2.1.0" />
 		<PackageVersion Include="FluentValidation" Version="11.9.0" />
 		<!-- xUnit dependencies -->
 		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />

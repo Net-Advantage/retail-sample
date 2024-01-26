@@ -15,7 +15,7 @@ updates:
     schedule:
       interval: "daily"
     allow:
-     - dependency-name: "Nabs*"
+     - dependency-name: "Cocona*"
     open-pull-requests-limit: 10
     target-branch: "main"
     labels:
