@@ -3,26 +3,33 @@
 
 |||
 |:---|:---|
-| Generated on: | 01/26/2024 - 20:31:22 |
-| Coverage date: | 01/26/2024 - 20:31:20 |
-| Parser: | Cobertura |
-| Assemblies: | 3 |
-| Classes: | 17 |
-| Files: | 16 |
-| **Line coverage:** | 83.9% (94 of 112) |
-| Covered lines: | 94 |
-| Uncovered lines: | 18 |
-| Coverable lines: | 112 |
-| Total lines: | 329 |
+| Generated on: | 01/26/2024 - 20:45:02 |
+| Coverage date: | 01/26/2024 - 20:44:28 - 01/26/2024 - 20:45:00 |
+| Parser: | MultiReport (2x Cobertura) |
+| Assemblies: | 5 |
+| Classes: | 21 |
+| Files: | 20 |
+| **Line coverage:** | 83.9% (110 of 131) |
+| Covered lines: | 110 |
+| Uncovered lines: | 21 |
+| Coverable lines: | 131 |
+| Total lines: | 373 |
 | **Branch coverage:** | 50% (2 of 4) |
 | Covered branches: | 2 |
 | Total branches: | 4 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
-| Tag: | 17_7673087050 |
+| Tag: | 18_7673207068 |
 
 </details>
 
 ## Coverage
+<details><summary>RetailSample - </summary>
+
+|**Name**|**Line**|**Branch**|
+|:---|---:|---:|
+|**RetailSample**|****|****|
+
+</details>
 <details><summary>RetailSample.Activities.RegistrationScenario - 100%</summary>
 
 |**Name**|**Line**|**Branch**|
@@ -46,6 +53,17 @@
 |RetailSample.Persistence.Entities.UserEntity|100%||
 |RetailSample.Persistence.Entities.WeatherForecastEntityConfiguration|100%||
 |RetailSample.Persistence.RetailSampleDbContext|57.1%||
+
+</details>
+<details><summary>RetailSample.ShopperAccount.RegistrationScenario - 84.2%</summary>
+
+|**Name**|**Line**|**Branch**|
+|:---|---:|---:|
+|**RetailSample.ShopperAccount.RegistrationScenario**|**84.2%**|****|
+|RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAc<br/>countActivity|100%||
+|RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAc<br/>countState|0%||
+|RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflow|100%||
+|RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflowState|75%||
 
 </details>
 <details><summary>RetailSample.Workflows.UserManagementScenarios - 88.6%</summary>

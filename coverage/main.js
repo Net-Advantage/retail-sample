@@ -219,13 +219,17 @@ for (i = 0, l = charts.length; i < l; i++) {
 
 var assemblies = [
   {
+    "name": "RetailSample",
+    "classes": [
+    ]},
+  {
     "name": "RetailSample.Activities.RegistrationScenario",
     "classes": [
       { "name": "RetailSample.Activities.RegistrationScenario.RegistrationActivity", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationActivity.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Activities.RegistrationScenario.RegistrationActivityState", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationActivityState.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Activities.RegistrationScenario.RegistrationStateInitialiser", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationStateInitialiser.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Activities.RegistrationScenario.RegistrationStateTransformer", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationStateTransformer.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.Activities.RegistrationScenario.RegistrationStateValidator", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationStateValidator.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.Activities.RegistrationScenario.RegistrationStateValidator", "rp": "RetailSample.Activities.RegistrationScenario_RegistrationStateValidator.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "RetailSample.Persistence",
@@ -236,6 +240,14 @@ var assemblies = [
       { "name": "RetailSample.Persistence.Entities.UserEntity", "rp": "RetailSample.Persistence_UserEntity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Persistence.Entities.WeatherForecastEntityConfiguration", "rp": "RetailSample.Persistence_WeatherForecastEntityConfiguration.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.Persistence.RetailSampleDbContext", "rp": "RetailSample.Persistence_RetailSampleDbContext.html", "cl": 4, "ucl": 3, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+    ]},
+  {
+    "name": "RetailSample.ShopperAccount.RegistrationScenario",
+    "classes": [
+      { "name": "RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAccountActivity", "rp": "RetailSample.ShopperAccount.RegistrationScenario_InitiateAccountActivity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAccountState", "rp": "RetailSample.ShopperAccount.RegistrationScenario_InitiateAccountState.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 7, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflow", "rp": "RetailSample.ShopperAccount.RegistrationScenario_RegistrationWorkflow.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflowState", "rp": "RetailSample.ShopperAccount.RegistrationScenario_RegistrationWorkflowState.html", "cl": 6, "ucl": 2, "cal": 8, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "RetailSample.Workflows.UserManagementScenarios",
