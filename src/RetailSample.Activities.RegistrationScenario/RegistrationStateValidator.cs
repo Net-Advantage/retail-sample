@@ -23,8 +23,3 @@ public sealed class RegistrationStateValidator
 			.LessThanOrEqualTo((state) => DateTime.UtcNow);
 	}
 }
-
-public static partial class DefaultValidatorExtensions
-{
-
-}
