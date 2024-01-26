@@ -10,13 +10,16 @@ registries:
     url: https://nuget.pkg.github.com/Net-Advantage/index.json
     username: nabs-darrel-schreyer
     password: ${{secrets.NUGET_AUTH_TOKEN}}
+  nuget:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
 
 updates:
   - package-ecosystem: "nuget"
     directory: "/src"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 1
+    open-pull-requests-limit: 10
     target-branch: "main"
     labels:
       - "nuget dependencies"
@@ -24,3 +27,4 @@ updates:
       - "minor"
     registries:
       - nabs-github-nuget
+      - nuget
