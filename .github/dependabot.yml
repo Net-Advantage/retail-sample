@@ -19,6 +19,8 @@ updates:
     directory: "/src"
     schedule:
       interval: "daily"
+    allow:
+     - dependency-name: "Nabs*"
     open-pull-requests-limit: 10
     target-branch: "main"
     labels:
