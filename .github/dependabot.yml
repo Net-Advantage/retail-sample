@@ -5,11 +5,11 @@
 
 version: 2
 registries:
-  nabs-nuget:
+  nabs-github-nuget:
     type: nuget-feed
-    url: https://nuget.pkg.github.com/Net-Advantage/index.json  # The URL of your NuGet feed
-    username: nabs-darrel-schreyer  # Username for authentication
-    password: ${{secrets.NUGET_AUTH_TOKEN}}  # Reference to a GitHub secret for the password
+    url: https://nuget.pkg.github.com/Net-Advantage/index.json
+    username: nabs-darrel-schreyer
+    password: ${{secrets.NUGET_AUTH_TOKEN}}
 
 updates:
   - package-ecosystem: "nuget"
@@ -23,4 +23,4 @@ updates:
       - "dependabot"
       - "minor"
     registries:
-      - nabs-nuget
+      - nabs-github-nuget

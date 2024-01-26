@@ -30,10 +30,13 @@ jobs:
           with:
             dotnet-version: '8.0.x'
 
+        - name: Add NuGet Source
+          run: dotnet nuget add source https://nuget.pkg.github.com/Net-Advantage/index.json --name NabsGitHubPackages --username nabs-darrel-schreyer --password ${{ secrets.NUGET_AUTH_TOKEN }} --store-password-in-clear-text
+
         - name: Restore dependencies using nuget.config
-          run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
+          run: dotnet restore src/Nabs.RetailSample.sln 
           env:
-            NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NUGET_AUTH_TOKEN: ${{ secrets.NUGET_AUTH_TOKEN }}
           
         - name: Build Solution
           run: dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
