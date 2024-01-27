@@ -7,15 +7,11 @@ version: 2
 registries:
   nabs-github-nuget:
     type: nuget-feed
-    url: https://nuget.pkg.github.com/Net-Advantage
-    username: nabs-darrel-schreyer
-    password: ${{ secrets.NUGET_AUTH_TOKEN }}
-  nabs-github-nuget-json:
-    type: nuget-feed
     url: https://nuget.pkg.github.com/Net-Advantage/index.json
-    username: nabs-darrel-schreyer
-    password: ${{ secrets.NUGET_AUTH_TOKEN }}
-
+    token: ${{secrets.DEPENDABOT_TOKEN}}
+  nuget-org:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
 updates:
   - package-ecosystem: "nuget"
     directory: "/"
@@ -31,7 +27,7 @@ updates:
       - "minor"
     registries:
       - "nabs-github-nuget"
-      - "nabs-github-nuget-json"
+      - "nuget-org"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
