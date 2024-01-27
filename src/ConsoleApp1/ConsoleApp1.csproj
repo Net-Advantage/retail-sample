@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>$(TargetFrameworkVersion)</TargetFramework>
+	<OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Cocona" />
+	</ItemGroup>
+</Project>
