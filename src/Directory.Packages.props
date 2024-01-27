@@ -3,7 +3,7 @@
 		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
 		<AspireVersion>8.0.0-preview.3.24059.2</AspireVersion>
 		<EfCoreVersion>8.0.1</EfCoreVersion>
-		<NabsVersion>8.0.53</NabsVersion>
+		<NabsVersion>8.0.51</NabsVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- Nabs dependencies -->
