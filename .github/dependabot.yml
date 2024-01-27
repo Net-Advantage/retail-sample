@@ -4,12 +4,6 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
-registries:
-  nabs-github-nuget:
-    type: nuget-feed
-    url: https://nuget.pkg.github.com/Net-Advantage/index.json
-    username: nabs-darrel-schreyer
-    password: ${{secrets.NUGET_AUTH_TOKEN}}
 
 updates:
   - package-ecosystem: "nuget"
