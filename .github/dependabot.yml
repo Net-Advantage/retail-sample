@@ -26,9 +26,7 @@ updates:
       - "nuget dependencies"
       - "dependabot"
       - "minor"
-    registries:
-      - "nabs-github-nuget"
-      - "nuget-org"
+    
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
