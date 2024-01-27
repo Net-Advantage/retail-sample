@@ -31,7 +31,7 @@ jobs:
             dotnet-version: '8.0.x'
 
         - name: Restore dependencies
-          run: dotnet restore src/Nabs.RetailSample.sln --config-file src/nuget.config
+          run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
           
         - name: Build Solution
           run: dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
