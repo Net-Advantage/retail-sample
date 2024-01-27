@@ -27,4 +27,3 @@ updates:
       - "minor"
     registries:
       - "nabs-github-nuget"
-    enable-beta-ecosystems: true
