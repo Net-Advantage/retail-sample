@@ -32,7 +32,7 @@ jobs:
         - name: Restore dependencies using NuGet.Config
           run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
           env:
-            NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NUGET_AUTH_TOKEN: ${{ secrets.NUGET_AUTH_TOKEN }}
           
         - name: Build Solution
           run: dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
