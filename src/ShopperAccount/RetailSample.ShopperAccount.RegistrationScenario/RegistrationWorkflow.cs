@@ -13,6 +13,7 @@ public sealed class RegistrationWorkflow : Workflow<RegistrationWorkflowState>
 
 	protected override Task OnDataLoadAsync()
 	{
+		_ = _parameters;
 		WorkflowState = new RegistrationWorkflowState();
 		return Task.CompletedTask;
 	}
