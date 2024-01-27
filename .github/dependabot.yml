@@ -8,7 +8,8 @@ registries:
   nabs-github-nuget:
     type: nuget-feed
     url: https://nuget.pkg.github.com/Net-Advantage/index.json
-    token: ${{secrets.DEPENDABOT_TOKEN}}
+    username: nabs-darrel-schreyer
+    password: ${{ secrets.NUGET_AUTH_TOKEN }}
   nuget-org:
     type: nuget-feed
     url: https://api.nuget.org/v3/index.json
