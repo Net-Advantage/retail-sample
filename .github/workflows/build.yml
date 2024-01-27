@@ -29,9 +29,6 @@ jobs:
           with:
             dotnet-version: '8.0.x'
 
-        - name: setup nuget
-          run: dotnet nuget update source NabsGitHubPackages --username nabs-darrel-schreyer --password ${{ secrets.NUGET_AUTH_TOKEN }} --store-password-in-clear-text
-
         - name: Restore dependencies using NuGet.Config
           run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
           env:

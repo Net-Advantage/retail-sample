@@ -13,8 +13,6 @@ if (Test-Path $coverageReportPath) {
     Remove-Item -Path $coverageReportPath -Recurse -Force
 }
 
-dotnet nuget update source github --username nabs-darrel-schreyer --password $env:NUGET_AUTH_TOKEN --store-password-in-clear-text
-
 dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
 dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
 dotnet test src/Nabs.RetailSample.sln --configuration Release --no-restore --no-build --logger "console;verbosity=detailed" --settings src/coverlet.runsettings
