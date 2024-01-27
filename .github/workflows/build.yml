@@ -31,7 +31,9 @@ jobs:
             dotnet-version: '8.0.x'
 
         - name: Restore dependencies
-          run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.config
+          run: dotnet restore src/Nabs.RetailSample.sln --configfile ./src/nuget.
+          env:
+            NUGET_AUTH_TOKEN: ${{ secrets.NUGET_AUTH_TOKEN }}
           
         - name: Build Solution
           run: dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
