@@ -10,6 +10,7 @@ registries:
     url: https://nuget.pkg.github.com/Net-Advantage/index.json
     username: nabs-darrel-schreyer
     password: ${{ secrets.NUGET_AUTH_TOKEN }}
+    replaces-base: true
 
 updates:
   - package-ecosystem: "nuget"
@@ -26,3 +27,4 @@ updates:
       - "minor"
     registries:
       - "nabs-github-nuget"
+    enable-beta-ecosystems: true
