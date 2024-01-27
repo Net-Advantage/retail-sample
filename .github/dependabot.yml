@@ -15,10 +15,10 @@ registries:
    url: https://api.nuget.org/v3/index.json
 
 updates:
-  - package-ecosystem: "nuget"
+  - package-ecosystem: nuget
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: daily
     allow:
      - dependency-name: "Nabs*"
     open-pull-requests-limit: 10
@@ -28,8 +28,8 @@ updates:
       - "dependabot"
       - "minor"
     registries:
-      - "nabs-github-nuget"
-      - "nuget-org"
+      - nabs-github-nuget
+      - nuget-org
 #  - package-ecosystem: github-actions
 #    directory: "/"
 #    schedule:
