@@ -30,18 +30,8 @@ jobs:
           with:
             dotnet-version: '8.0.x'
 
-        - name: Add Nabs GitHub NuGet source
-          run: |
-              dotnet nuget remove source "NabsGitHubPackages" || true
-              dotnet nuget add source "https://nuget.pkg.github.com/Net-Advantage/index.json" --name "NabsGitHubPackages" --username "nabs-darrel-schreyer" --password ${{ secrets.NUGET_AUTH_TOKEN }} --store-password-in-clear-text
-
-        - name: Add nuget.org source
-          run: |
-              dotnet nuget remove source "nuget.org" || true
-              dotnet nuget add source "https://api.nuget.org/v3/index.json" --name "nuget.org"
-          
         - name: Restore dependencies
-          run: dotnet restore src/Nabs.RetailSample.sln 
+          run: dotnet restore src/Nabs.RetailSample.sln --config-file src/nuget.config
           
         - name: Build Solution
           run: dotnet build src/Nabs.RetailSample.sln --configuration Release --no-restore
