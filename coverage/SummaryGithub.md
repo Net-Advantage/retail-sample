@@ -3,22 +3,22 @@
 
 |||
 |:---|:---|
-| Generated on: | 01/27/2024 - 05:15:03 |
-| Coverage date: | 01/27/2024 - 05:14:29 - 01/27/2024 - 05:15:01 |
+| Generated on: | 01/27/2024 - 05:33:40 |
+| Coverage date: | 01/27/2024 - 05:33:04 - 01/27/2024 - 05:33:38 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 21 |
 | Files: | 20 |
-| **Line coverage:** | 83.9% (110 of 131) |
-| Covered lines: | 110 |
+| **Line coverage:** | 84% (111 of 132) |
+| Covered lines: | 111 |
 | Uncovered lines: | 21 |
-| Coverable lines: | 131 |
-| Total lines: | 373 |
+| Coverable lines: | 132 |
+| Total lines: | 374 |
 | **Branch coverage:** | 50% (2 of 4) |
 | Covered branches: | 2 |
 | Total branches: | 4 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
-| Tag: | 60_7676566317 |
+| Tag: | 61_7676668446 |
 
 </details>
 
@@ -55,11 +55,11 @@
 |RetailSample.Persistence.RetailSampleDbContext|57.1%||
 
 </details>
-<details><summary>RetailSample.ShopperAccount.RegistrationScenario - 84.2%</summary>
+<details><summary>RetailSample.ShopperAccount.RegistrationScenario - 85%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**RetailSample.ShopperAccount.RegistrationScenario**|**84.2%**|****|
+|**RetailSample.ShopperAccount.RegistrationScenario**|**85%**|****|
 |RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAc<br/>countActivity|100%||
 |RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAc<br/>countState|0%||
 |RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflow|100%||

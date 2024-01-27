@@ -246,7 +246,7 @@ var assemblies = [
     "classes": [
       { "name": "RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAccountActivity", "rp": "RetailSample.ShopperAccount.RegistrationScenario_InitiateAccountActivity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.ShopperAccount.RegistrationScenario.InitiateAccount.InitiateAccountState", "rp": "RetailSample.ShopperAccount.RegistrationScenario_InitiateAccountState.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 7, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflow", "rp": "RetailSample.ShopperAccount.RegistrationScenario_RegistrationWorkflow.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflow", "rp": "RetailSample.ShopperAccount.RegistrationScenario_RegistrationWorkflow.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "RetailSample.ShopperAccount.RegistrationScenario.RegistrationWorkflowState", "rp": "RetailSample.ShopperAccount.RegistrationScenario_RegistrationWorkflowState.html", "cl": 6, "ucl": 2, "cal": 8, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
